@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">bimg</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">dovelopers</string>
+    <string name="st">set as wallpaper</string>
+    
+</resources>

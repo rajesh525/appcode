@@ -1,0 +1,45 @@
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" 
+        android:orientation="vertical"
+        android:background="@drawable/bodybg">
+
+        <ImageView
+            android:id="@+id/getpic"
+            android:layout_width="250dp"
+            android:layout_height="250dp"
+             android:layout_marginTop="10dp"
+            android:layout_gravity="center" 
+            android:background="@drawable/dt"
+            android:contentDescription="@string/app_name"/>
+
+        <ImageButton
+             android:id="@+id/takepic"
+            android:layout_width="30dp"
+            android:layout_height="20dp"
+            android:src="@drawable/cem"
+            android:layout_gravity="center"
+             android:layout_marginTop="10dp"   
+            android:contentDescription="@string/app_name"
+            android:background="#336699"/>
+
+        <Button
+            android:id="@+id/backpic"
+            android:layout_width="125dp"
+            android:layout_height="wrap_content"
+            android:text="@string/st"
+            android:layout_gravity="center"
+             android:background="#aabbff"
+            android:layout_marginTop="10dp"
+             android:clickable="true"/>
+
+        <TextView
+            android:id="@+id/tv1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textColor="#339966" 
+            android:layout_marginTop="40dp"/>
+
+    </LinearLayout>
